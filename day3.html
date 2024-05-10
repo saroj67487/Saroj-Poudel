@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <fieldset>
+            <legend>Your email is here </legend>
+            <form action="">
+                <p>
+                    <label for="mail">email</label>
+                    <input type="email" id="mail"placeholder="example@gmail.com"required>
+
+                </p>
+            </form>
+
+        </fieldset>
+
+        <form action="mailto:sarojpoudel67487@gmail.com?subject=Hi" 
+        method="post" enctype="text/plain"></form>
+
+        <p>
+            <h3> Select your gender</h3>
+            <label for="male" >Male</label>
+            <input type="radio" name="gender"id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="female">
+        </p>
+        <p>
+            <h3> Select your habits</h3>
+            <label for="dance" >Dance</label>
+            <input type="checkbox" name="habits"id="dance" value="dance">
+            <label for="sing">sing</label>
+            <input type="checkbox" name="habits" id="dance" value="sing">
+        </p>
+
+        <p>
+            <h3> Select your country</h3>
+            <select name="country" id="country">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </select>
+        </p>
+
+        <p>
+        
+            <h3>Select fav coffee</h3>
+            <select name="Coffee">
+            <optgroup label="Hard coffee">
+                <option value="expresso">Expresso</option>
+                <option value="Mojito">Mojito</option>
+            </optgroup>
+
+            <optgroup label="Light coffee">
+                <option value="cappuccino">Cappuccino</option>
+                <option value="americano"> americano</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p> <h3> Date of Birth</h3>
+            <label for="date">Select date of joining</label>
+            <input type="date" id="date" name="date">
+        </p>
+
+        <p> 
+            <label for="color">Select fav color</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+            <textarea placeholder="type message" name="msg" cols="30" rows="10">
+
+            </textarea>
+        </p>
+        <fieldset>
+
+            <legend> enter your username </legend>
+            <form action="">
+                <p>
+                    <label for="username ">username</label>
+                    <input type="text" name="username" id="username"placeholder="username" maxlength="10">
+                </p>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your password is here</legend>
+            <form action="">
+                <p>
+                    <label for="password">password</label>
+                    <input type="password" id="password"placeholder="*******" required>
+                </p>
+            </form>
+       </fieldset>
+
+       <button type="submit">submit</button>
+       <button type="reset"> reset</button>
+
+
+    
+    
+
+</body>
+</html>
